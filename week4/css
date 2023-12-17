@@ -1,0 +1,120 @@
+body {
+    background-color:rgb(210, 207, 207);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+
+figcaption
+{
+    text-align: center;
+    padding: 10px;
+}
+/*************************************************/
+.grid figure {
+    background-color: #222; /* Dark background color */
+    color: #f1f0e6; /* Light font color */
+    border-color: #000; /* Black border color */
+}
+/*************************************************/
+figure
+{
+    padding: 1px;
+}
+figure img {
+    display: inline-block;
+    max-height: 30vh;
+    max-width: 50vw;
+    display: block;
+}
+
+/* Your existing styles remain unchanged */
+
+/* Media Query for Tablet View (min-width: 772px) */
+/*telephone*/
+@media screen and (max-width: 772px) {
+
+    figure img {
+        max-width: 60%;
+        display: inline-block;
+        max-height: 150px;
+        margin-top: 1px;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-radius: 90px;
+        display: block;
+    }
+    figure 
+    {
+        max-width: 60%;
+    }
+    /*cetrer l'image et reduire la figure et ajouter un peu dans le height */
+    img 
+    {
+        max-width: 80%;
+    }
+    .grid figure {
+        background-color: #222; /* Dark background color */
+        color: #f1f0e6; /* Light font color */
+        border-color: #000; /* Black border color */
+        border-radius: 180px;
+}
+figcaption
+{
+    text-align: center;
+    padding: 10px;
+}
+
+}
+
+/* Media Query for Large Screen View (min-width: 998px) */
+@media screen and (min-width: 772px) {
+    figure
+    {
+        display: inline-block;
+        width: 35%;
+        margin: 5px;
+        padding: 2px;
+    }
+    figure img 
+    {
+        width:60vw;
+        max-width: 100%;
+    }
+    
+    .three 
+    { 
+        width: 60vw;
+        max-width: 100%;
+    }
+
+    .grid figure {
+        background-color: #222; /* Dark background color */
+        color: #f1f0e6; /* Light font color */
+        border-color: #000; /* Black border color */
+    }
+    figcaption
+{
+    text-align: center;
+    padding: 10px;
+}
+}
